@@ -9,7 +9,7 @@ public class CharEx {
 		System.out.println("char형('\u0041'):" + aValue);
 		
 		char bValue = '\u0041';
-		System.out.println("char형(\'\\u0041\'):" + aValue);
+		System.out.println("char형(\'\\u0041\'):" + bValue);
 
 	}
 
