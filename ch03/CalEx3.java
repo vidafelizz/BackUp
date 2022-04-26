@@ -18,8 +18,7 @@ public class CalEx3 {
 		System.out.printf("a/b=%.2f\n", (double)a/b);
 		// int 값이 들어왔으나 연산상 실수값이 나오는 경우는 형변환(double)을 써야함
 		System.out.printf("a%%b=%d\n", a%b);
-		
-
+		in.close();
 	}
 
 }
