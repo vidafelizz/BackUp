@@ -8,7 +8,7 @@ public class Multi {
 			sum = sum * i;
 			
 		}
-		System.out.println("1~부터" + num + "까지의 곱 : " +sum);
+		System.out.println("1부터" + num + "까지의 곱 : " +sum);
 	}
 
 }
