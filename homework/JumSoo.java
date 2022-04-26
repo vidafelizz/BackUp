@@ -26,7 +26,6 @@ public class JumSoo {
 		avg = tot / 4.0;
 		
 		System.out.println("이름\tJava\tHTML\tJSP\tDB\t총점\t평균");
-		System.out.println(name+"\t" +Java+"\t"+ HTML+"\t" +JSP+"\t" +DB+"\t" +tot+"\t" +avg);
 		System.out.println("-----------------------------------------------------");
 		System.out.printf("%s\t%d\t%d\t%d\t%d\t%d\t%4.1f" , name, Java, HTML, JSP, DB, tot, avg);
 		
