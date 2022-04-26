@@ -11,6 +11,8 @@ public class OddEven {
 		System.out.println(num % 2 == 0 ? "짝수" : "홀수");
 		// 3항 연산자 1항 ?(조건식) 2항(true) : 3항(false)	
 		
+		in.close();
+		
 	}
 
 }

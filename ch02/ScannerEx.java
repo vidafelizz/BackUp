@@ -17,7 +17,7 @@ public class ScannerEx {
 	int y = in.nextInt();
 	
 	System.out.printf("%d * %d은 %d입니다.\n", x, y, x * y);
-	
+	in.close();
 
 	}
 
