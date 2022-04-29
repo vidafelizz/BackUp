@@ -32,7 +32,7 @@ public class ScannerEx2 {
 		System.out.println("당신의 키는 " + height + "cm 입니다.");
 		System.out.println("당신의 몸무게는 " + weight + "kg 입니다.");
 		
-		scan.close(); //스캔객레를 종료
+		scan.close(); //스캐너를 종료
 		
 		
 		
