@@ -11,6 +11,7 @@ public class Holiday {
 		// 변수 선언
 		int year; // 근속연수
 		int days; // 휴가일수
+		
 		// 데이터 입력
 		Scanner scan = new Scanner(System.in);
 		System.out.println("근속연수를 입력하세요 : ");
