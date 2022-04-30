@@ -26,9 +26,9 @@ public class Cost {
 			}
 			if(point >= 10000) {
 				point_use = point;
-				pay = price - point;
-			} else {
 				pay = price + fee - point;
+			} else {
+				pay = price +fee;
 			}
 			
 			//출력
