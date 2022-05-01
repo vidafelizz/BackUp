@@ -8,6 +8,7 @@ public class InputSum {
 		int[] num = new int[5];
 		int sum = 0;
 		Scanner scan = new Scanner(System.in);
+		
 		for(int i =0; i<num.length; i++) {
 			System.out.println((i+1) + "번째 숫자를 입력하세요 : ");
 			num[i]=scan.nextInt();
