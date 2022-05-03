@@ -21,7 +21,7 @@ public class ForeachEx {
 		System.out.println();
 		
 		for(Week day :Week.values()) {
-			System.out.print(day + "요일");
+			System.out.print(day + "요일 ");
 		}
 	}
 }
