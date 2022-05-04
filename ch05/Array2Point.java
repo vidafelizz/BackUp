@@ -18,13 +18,6 @@ public class Array2Point {
 		point[0][2] = 100;
 		point[0][3] = 0;
 		point[0][4] = 0;
-	
-		
-		
-		
-		
-		
-		
 		
 		for(int i=0; i<5; i++) {
 			point[i][3] = point[i][0]+point[i][1]+point[i][2]; //총점 구하기
