@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class ArrayScanScore {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
-		System.out.print("성적처리할 학생수를 입력");
+		System.out.print("성적처리할 학생수를 입력하세요, >");
 		int size = scan.nextInt();
 		int score[] = new int[size];
+
 		int sum = 0;
 		double avg = 0;
 		
