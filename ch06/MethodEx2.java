@@ -3,6 +3,7 @@ package ch06;
 // 메소드를 사용하면 얻을 수 있는 장점 :
 // 1) 중복 코드를 줄이고 재사용할 수 있다.
 // 2) 모듈화해 가독성을 높이기 때문에 프로그램의 품질을 향상시킨다.
+
 public class MethodEx2 {
 	public static void main(String[] args) {
 		System.out.println("합(1~10) : " + sum(1, 10));
@@ -17,7 +18,6 @@ public class MethodEx2 {
 		for(int i=a; i<=b; i++) {
 			sum += i;
 		}
-		return sum;
-		
+		return sum;		
 	} // end sum
 }

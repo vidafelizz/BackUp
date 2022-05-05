@@ -28,6 +28,4 @@ public class OverloadEx2 {
 		return max(max(n1, n2), n3); // 외곽 매개변수 2개, 안쪽 매개변수 2개
 		// 1번 호출 max(7, n3)=> max(7,10)=> 다시 1번 호출
 	}
-	
-
 }

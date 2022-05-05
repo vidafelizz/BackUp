@@ -25,8 +25,4 @@ public class OverloadEx1 {
 	static void print(int c) {
 		System.out.println(c);
 	}
-	static String print(int i) {
-		System.out.println(i);
-	}
-	
 }

@@ -8,7 +8,7 @@ public class OverloadEx3 {
 	}
 	static void print(String name, String email, String hp) {
 		System.out.println("=============================================");
-		System.out.println("이름\t이메일\t전화");
+		System.out.println("이름\t이메일\t\t전화");
 		System.out.println(name+"\t"+email+"\t"+hp);
 		
 	}

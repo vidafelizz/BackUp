@@ -9,9 +9,7 @@ public class VariantParam {
 			System.out.println(n[i]);
 		}	
 	}
-	
 
-	
 	public static void main(String[] args) {
 	print("java");
 	print("java", "program");

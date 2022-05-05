@@ -25,7 +25,7 @@ public class SalaryEx {
 	
 	// 출력
 	static void print() {
-		System.out.println("이름\t연봉\t보너스\t총액\t세금\t실수령액");
+		System.out.println("이름\t연봉\t보너스\t총액\t세금\t실수령액 (단위: 만원)");
 		for(int i=0; i<name.length; i++) {
 			System.out.println(name[i]+"\t"+salary[i]+"\t"+bonus[i]+"\t"+total[i]+"\t"+tax[i]+"\t"+pay[i]);
 		}

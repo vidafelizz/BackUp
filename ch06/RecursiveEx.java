@@ -11,6 +11,4 @@ public class RecursiveEx {
 		return n==1? 1: n * fact1(n-1);
 	}
 	// 큰 수를 다룰대는 BigInteger를 사용하거나 배열을 사용
-	
-
 }
