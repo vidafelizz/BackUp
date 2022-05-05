@@ -24,7 +24,8 @@ public class Employee {
 		salary = total-tax;
 	}
 	public void print() {
-		System.out.println("이름\t부서\t직위\t기본급\t보너스\t총액\t세액\t실수령액");
+		System.out.println("이름\t부서\t직위\t기본급\t보너스\t총액\t세액\t실수령액\t(단위:만원)");
+		System.out.println("==============================================================");
 		System.out.println(name+"\t"+part+"\t"+position+"\t"
 		+basic+"\t"+bonus+"\t"+total+"\t"+tax+"\t"+salary);
 	}

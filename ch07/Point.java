@@ -1,6 +1,7 @@
 package ch07;
 
-public class Point { // 학점계산 Class 객체 Version
+// 학점계산 Class 객체 Version
+public class Point { 
 	// 멤버변수
 	private String name;
 	private int kor;
@@ -68,7 +69,7 @@ public class Point { // 학점계산 Class 객체 Version
 	}
 	public void print() {
 		System.out.println("이름\t국어\t영어\t수학\t총점\t평균\t등급");
-		System.out.println(name+"\t"+eng+"\t"+mat+"\t"+getTot()+"\t"
+		System.out.println(name+"\t"+kor+"\t"+eng+"\t"+mat+"\t"+getTot()+"\t"
 		+String.format("%.2f", getAvg())+"\t"+getGrade());
 	}
 }

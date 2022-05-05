@@ -9,7 +9,7 @@ class Phone {
 	
 	// 멤버 메소드
 	void print() {
-		System.out.println(value + "만원 짜리 " + model + "스마트폰");
+		System.out.println(value + "만원 짜리 " + model + " 스마트폰");
 	}
 }
 public class PhoneDemo {

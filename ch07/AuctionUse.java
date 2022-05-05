@@ -8,5 +8,4 @@ public class AuctionUse {
 		a.setMoney(150000);
 		a.print();
 	}
-
 }
