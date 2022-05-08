@@ -25,6 +25,7 @@ class Circle {
 	public void printf() {
 		System.out.println("반지름 : " + radius);
 		System.out.println("색 깔 : " + color);
+		System.out.println();
 	}
 	
 }

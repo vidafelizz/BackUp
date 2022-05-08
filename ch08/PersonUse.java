@@ -6,7 +6,6 @@ public class PersonUse {
 		p1.showInfo();
 		
 		Person p2 = new Person("김상범"); // 객체생성과 동시에 매개변수가 하나짜리인 생성자 호출
-		System.out.println();
 		p2.showInfo();
 		
 		Person p3 = new Person("박찬호", 185); // 객체생성과 동시에 매개변수가 두개짜리인 생성자 호출

@@ -5,7 +5,6 @@ public class MyManager {
 	private int score;
 	
 	// 싱글톤 처리된 생성자는
-	
 	private MyManager(int score) {
 		this.score = score;
 	}
