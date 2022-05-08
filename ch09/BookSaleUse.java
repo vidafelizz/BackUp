@@ -17,5 +17,4 @@ public class BookSaleUse {
 		b1.print();
 		
 	}
-
 }

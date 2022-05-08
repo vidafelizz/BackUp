@@ -30,8 +30,5 @@ public class BookSale extends Book {
 		System.out.println("도서명\t출판사\t저자\t출판연도\t단가\t판매수량\t판매금액\t\t판매순위");
 		System.out.println(getBookName()+"\t"+getPress()+"\t"+getAuthor()+"\t"+getYear()+"\t"+
 							getPrice()+"\t"+amount+"\t"+money+"\t"+rank);
-	}
-	
-	
-	
+	}	
 }

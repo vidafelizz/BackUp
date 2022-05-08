@@ -11,9 +11,8 @@ public class Employee {
 		return rrn;
 	}
 	
-	public Employee() {
-		
-	}
+	public Employee() {}
+	
 	// 매개변수가 있는 생성자
 	public Employee(String name, String address, int salary, String rrn) {
 		this.name = name;

@@ -11,5 +11,4 @@ public class SaleUse {
 		// 출력
 		s1.print();
 	}
-
 }
