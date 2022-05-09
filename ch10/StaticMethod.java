@@ -1,8 +1,8 @@
 package ch10;
 
 public class StaticMethod {
-	static int a = 10; // static 멤버
-	int b = 20;		   // nin-static 멤버
+	static int a = 10;	 // static 멤버
+	int b = 20;	 // non-static 멤버
 	
 	public static void printA() { // static멤버메소드
 		System.out.println(a);
@@ -11,7 +11,7 @@ public class StaticMethod {
 		System.out.println(s.b);
 	}
 	
-	public void printB() {	// non-static 멤버메소드는 static도 쓸 수 있다.
+	public void printB() {	// non-static 멤버메소드는 static도 사용가능
 		System.out.println(a); // static
 		System.out.println(b); // non-static
 	}
