@@ -17,5 +17,4 @@ public class Airplane implements Flyer {
 	public void land() {
 		System.out.println("Airplane 착륙");
 	}
-
 }

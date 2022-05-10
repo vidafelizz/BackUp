@@ -2,10 +2,10 @@ package ch11;
 
 public class FlyUse {
 	public static void main(String[] args) {
-		Bird bird = new Bird();
-		bird.takeOff();
-		bird.fly();
-		bird.land();
+		Bird b = new Bird();
+		b.takeOff();
+		b.fly();
+		b.land();
 		
 		Airplane air = new Airplane();
 		air.takeOff();
