@@ -8,8 +8,8 @@ public class AppendEx {
 		
 		// 가변성(mutable)
 		// 실제 쓰임새는 긴문자열을 처리하고자 할 때
-		StringBuilder b = new StringBuilder("hello");
-		b.append("java");
+//		StringBuilder b = new StringBuilder("hello");
+//		b.append("java");
 		System.out.println(b);
 	}
 }
